@@ -1,1 +1,1 @@
-docker import hello-world
+docker pull hello-world
