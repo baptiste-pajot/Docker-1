@@ -6,7 +6,7 @@
 #    By: bpajot <marvin@le-101.fr>                  +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2018/12/20 17:12:07 by bpajot       #+#   ##    ##    #+#        #
-#    Updated: 2018/12/20 17:23:11 by bpajot      ###    #+. /#+    ###.fr      #
+#    Updated: 2019/01/02 16:25:14 by bpajot      ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -15,4 +15,5 @@ FROM ft-rails:on-build
 EXPOSE 3000
 CMD ["rails", "s", "-b", "0.0.0.0", "-p", "3000"]
 
-# docker built -t ex02 .
+# docker build -t ex02 .
+# docker run -it -rm -p 3000:3000 ex02

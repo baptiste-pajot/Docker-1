@@ -6,7 +6,7 @@
 #    By: bpajot <marvin@le-101.fr>                  +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2018/12/20 14:55:26 by bpajot       #+#   ##    ##    #+#        #
-#    Updated: 2018/12/20 15:59:40 by bpajot      ###    #+. /#+    ###.fr      #
+#    Updated: 2019/01/02 14:38:53 by bpajot      ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -18,4 +18,4 @@ RUN apk update && apk upgrade && apk add vim
 ENTRYPOINT vim
 
 # docker build -t ex00 .
-# docker run --rm -it ex00 
+# docker run --rm -it ex00
